@@ -1,12 +1,11 @@
 <template>
   <div>
     <!-- Navigation -->
-    <!-- <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-dark absolute-top">
       <div class="container">
-        <a class="navbar-brand" href="#">PLAN 341 Group 6</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
+        <a class="navbar-brand" href="#">Garden Hub</a>
       </div>
-    </nav>-->
+    </nav>
 
     <!-- Masthead -->
     <header class="masthead text-white text-center">
@@ -31,28 +30,34 @@
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-screen-desktop m-auto text-primary"></i>
+                <i class="icon-bulb m-auto text-success"></i>
               </div>
-              <h3>We are Awesome</h3>
-              <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+              <h3>Grow</h3>
+              <p
+                class="lead mb-0"
+              >Grow healthy vegetables and fruits locally to increase food resiliency and accessibility.</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
+                <i class="icon-emotsmile m-auto text-success"></i>
               </div>
-              <h3>Educate the Community</h3>
-              <p class="lead mb-0">Learn about why local food matters!</p>
+              <h3>Learn</h3>
+              <p
+                class="lead mb-0"
+              >Learn about why local food matters, how to take care of your crops, and share your food production knowledge with the community.</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-check m-auto text-primary"></i>
+                <i class="icon-heart m-auto text-success"></i>
               </div>
-              <h3>Connect with your Community</h3>
-              <p class="lead mb-0">Get connected with people in your community</p>
+              <h3>Connect</h3>
+              <p
+                class="lead mb-0"
+              >Enagage with your fellow residents and interact with the community.</p>
             </div>
           </div>
         </div>
@@ -63,17 +68,17 @@
     <section class="showcase">
       <div class="container">
         <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img showcase-mission"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img showcase-vision"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Our Vision</h2>
+            <p
+              class="lead mb-0"
+            >Climate change will affect global food markets in unprecedented ways.</p>
+            <br>
             <p class="lead mb-0">
-              Climate change will affect global food markets in unprecedented ways
               A global awareness of these challenges must be addressed with
               local action to prepare Vancouver’s food systems for a more self-sustained future.
             </p>
-            <p
-              class="lead mb-0"
-            >Food system resilience: the capacity for communities to adapt to social and environmental shocks while providing sufficient, appropriate, and accessible food to all citizens.</p>
           </div>
         </div>
         <!-- <div class="row no-gutters">
@@ -172,10 +177,6 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
                 <a href="#">Contact</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
@@ -187,9 +188,7 @@
                 <a href="#">Privacy Policy</a>
               </li>
             </ul>
-            <p
-              class="text-muted small mb-4 mb-lg-0"
-            >&copy; Plan 341 Group6 2019. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Garden Hub 2019. All Rights Reserved.</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
@@ -221,8 +220,23 @@ export default {};
 </script>
 
 <style scoped>
-.showcase-mission {
-  background-image: url("../img/bg-garden.jpg");
+a {
+  color: #28a745;
+}
+
+.absolute-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.showcase-vision {
+  background-image: url("../img/bg-garden-showcase.jpg");
+  padding: 16px;
+  border-radius: 64px;
+  background-clip: content-box;
 }
 
 .btn-join {
