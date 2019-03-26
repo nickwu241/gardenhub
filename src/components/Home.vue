@@ -16,7 +16,7 @@
             <h1 class="mb-5">Join a Community Garden!</h1>
             <button
               class="btn btn-lg btn-join"
-              @click="() => this.$router.push('find-gardens')"
+              @click="() => this.$router.push('find')"
             >JOIN NOW</button>
           </div>
         </div>

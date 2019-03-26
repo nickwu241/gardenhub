@@ -20,7 +20,7 @@ const routes = [{
     component: Home
   },
   {
-    path: '/find-gardens',
+    path: '/find',
     component: FindGardens
   }
 ]
