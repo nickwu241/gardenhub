@@ -1,4 +1,4 @@
-# plan341
+# Garden Hub
 
 ## Project setup
 ```
