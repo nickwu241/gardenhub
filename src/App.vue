@@ -5,15 +5,8 @@
 </template>
 
 <script>
-import Home from "./components/Home.vue";
-import FindGardens from "./components/FindGardens.vue";
-
 export default {
-  name: "app",
-  components: {
-    Home,
-    FindGardens
-  }
+  name: "app"
 };
 </script>
 

@@ -64,7 +64,7 @@
                 <iframe
                   :src="imgsrc"
                   width="800"
-                  height="600"
+                  height="400"
                   frameborder="0"
                   style="border:0"
                   allowfullscreen
