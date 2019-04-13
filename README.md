@@ -1,29 +1,8 @@
 # Garden Hub
 
-## Project setup
-```
-npm install
-```
+I created this is a website prototype for finding all information about community gardens in Vancouver.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+To see it in action, you can [watch the video demo](https://drive.google.com/file/d/1qQyos94yirz5qrnNI8ihPZkbbh6Ds8xL/view?usp=sharing) or see the screenshots below.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Screen 1](gardenhub-screen1.png)
+![Screen 2](gardenhub-screen2.png)
